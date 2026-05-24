@@ -108,19 +108,20 @@ jupyter notebook analysis.ipynb
 
 ---
 
-## 🤖 Model Results Summary
+## 🤖 Model Performance Results
+
+| Model | MAE | RMSE | R² | Performance |
+|-------|-----|------|----|-------------|
+| ⭐ Linear Regression | 0.395 | 0.507 | 0.115 | 🟢 Best |
+| Random Forest | 1.766 | 1.848 | -10.755 | 🔴 Overfit |
+| Gradient Boosting | 1.761 | 1.841 | -10.666 | 🔴 Overfit |
+| Ensemble | 1.179 | 1.275 | -4.595 | 🟡 Moderate |
+
+> **Lower MAE & RMSE = better | R² closer to 1.0 = better**
 
 
-============================================================
-Model                          MAE     RMSE       R²
-============================================================
-Linear Regression            0.395    0.507    0.115
-Random Forest                1.766    1.848  -10.755
-Gradient Boosting            1.761    1.841  -10.666
-Ensemble                     1.179    1.275   -4.595
-============================================================
 
-*(Fill in your actual results from Cell 9 output)*
+
 
 ---
 
