@@ -110,12 +110,15 @@ jupyter notebook analysis.ipynb
 
 ## 🤖 Model Results Summary
 
-| Model | MAE | RMSE | R² |
-|-------|-----|------|----|
-| Linear Regression | - | - | - |
-| Random Forest | - | - | - |
-| Gradient Boosting | - | - | - |
-| Ensemble | - | - | - |
+
+============================================================
+Model                          MAE     RMSE       R²
+============================================================
+Linear Regression            0.395    0.507    0.115
+Random Forest                1.766    1.848  -10.755
+Gradient Boosting            1.761    1.841  -10.666
+Ensemble                     1.179    1.275   -4.595
+============================================================
 
 *(Fill in your actual results from Cell 9 output)*
 
